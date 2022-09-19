@@ -66,7 +66,7 @@ function HighNav() {
           </li>
           <hr className="bg-gray-300 ml-3 outline-none border-none shadow-none h-[2px]"/>
           <li className='p-2 pl-4 my-2 rounded-sm'>
-            <a href=""><span className='text-xl'>ReadME</span></a>
+            <a href="https://github.com/akifsahinkorkmaz/charts#readme"><span className='text-xl'>ReadME</span></a>
           </li>
           <hr className="bg-gray-300 ml-3 outline-none border-none shadow-none h-[2px]"/>
         </ul>
