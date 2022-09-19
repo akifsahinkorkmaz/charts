@@ -48,3 +48,4 @@ Language: TypeScript
 Akif Şahin Korkmaz
 
 https://github.com/akifsahinkorkmaz
+https://www.linkedin.com/in/akif-sahin-korkmaz/
