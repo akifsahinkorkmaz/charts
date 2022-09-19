@@ -52,9 +52,10 @@ function SantralBig(props:any) {
     }
   }, [weather])
 
-  if (self && weather) {
-    return (
-      <section>
+  if (self) {
+    if (weather) {
+      return (
+        <section>
         <div className='w-screen h-[86vh] relative py-12 px-12 flex items-center justify-evenly'>
           <div className='w-1/3 h-full p-4 bg-white drop-shadow rounded-lg'>
             <h1 className='text-2xl text-center mb-6'>{self.name}</h1>
@@ -103,7 +104,17 @@ function SantralBig(props:any) {
           </div>
         </div>
       </section>
-    );
+      );
+    }else {
+      return (
+      <section>
+        <div className='w-screen h-[86vh] py-24 flex items-center justify-evenly flex-col'>
+          <span className='text-center font-semibold text-6xl'>Hava verisi alınıyor</span>
+          <span className='text-center text-2xl'>Lütfen Bekleyin</span>
+        </div>
+      </section>
+      );
+    }
   }
   else {
     return (
